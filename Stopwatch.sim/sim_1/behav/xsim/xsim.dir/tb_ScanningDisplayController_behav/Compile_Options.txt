@@ -1,0 +1,1 @@
+-wto "78f59e0212f54ca883e82804fcdbdb7c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_ScanningDisplayController_behav" "xil_defaultlib.tb_ScanningDisplayController" -log "elaborate.log" 

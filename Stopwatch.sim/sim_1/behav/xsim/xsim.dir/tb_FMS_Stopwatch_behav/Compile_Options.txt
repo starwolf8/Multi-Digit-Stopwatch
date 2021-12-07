@@ -1,0 +1,1 @@
+-wto "78f59e0212f54ca883e82804fcdbdb7c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "my_custom_library" -L "secureip" --snapshot "tb_FMS_Stopwatch_behav" "xil_defaultlib.tb_FMS_Stopwatch" -log "elaborate.log" 

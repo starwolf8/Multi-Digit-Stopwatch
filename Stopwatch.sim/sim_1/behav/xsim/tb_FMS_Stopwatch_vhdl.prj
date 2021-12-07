@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Stopwatch.srcs/sources_1/new/AnodeSelector.vhd" \
+
+vhdl my_custom_library  \
+"../../../../Stopwatch.srcs/sources_1/new/Custom_Library.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../Stopwatch.srcs/sources_1/new/ClockDivider.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/Counter.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/FSM_Stopwatch.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/Full_Adder.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/RippleCarryAdder_27Bit.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/RippleCarryAdder_4Bit.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/ScanningDisplayController.vhd" \
+"../../../../Stopwatch.srcs/sources_1/new/SevenSegmentDriver.vhd" \
+"../../../../Stopwatch.srcs/sim_1/new/tb_FMS_Stopwatch.vhd" \
+
+# Do not sort compile order
+nosort

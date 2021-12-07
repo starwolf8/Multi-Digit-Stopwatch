@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl my_custom_library  \
+"../../../../Stopwatch.srcs/sources_1/new/Custom_Library.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../Stopwatch.srcs/sources_1/new/ClockTimer.vhd" \
+"../../../../Stopwatch.srcs/sim_1/new/tb_ClockTimer.vhd" \
+
+# Do not sort compile order
+nosort
