@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="D:/EDUCATION/Pacific Lutheran University/PLU_COURSES/2015/2015 -02 - Spring/CSCE-231/1- Labs/Lab 09/FiniteStateMachines_and_Controllers/FiniteStateMachines_and_Controllers.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

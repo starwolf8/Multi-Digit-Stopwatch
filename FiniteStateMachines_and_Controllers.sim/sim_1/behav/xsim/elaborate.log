@@ -1,0 +1,22 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 27fd5dcf5ad547c9aa1f272a0afe429f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_multi_stopwatch_ckt_behav xil_defaultlib.tb_multi_stopwatch_ckt -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1625] value in initialization depends on signal halfper [D:/EDUCATION/Pacific Lutheran University/PLU_COURSES/2015/2015 -02 - Spring/CSCE-231/1- Labs/Lab 09/FiniteStateMachines_and_Controllers/FiniteStateMachines_and_Controllers.srcs/sim_1/new/tb_multi_stopwatch_ckt.vhd:56]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.clkdiv [clkdiv_default]
+Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.seven_segment_ckt [seven_segment_ckt_default]
+Compiling architecture behavioral of entity xil_defaultlib.mutli_seg_ckt [mutli_seg_ckt_default]
+Compiling architecture behavioral of entity xil_defaultlib.multi_stopwatch_ckt [multi_stopwatch_ckt_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_multi_stopwatch_ckt
+Built simulation snapshot tb_multi_stopwatch_ckt_behav
